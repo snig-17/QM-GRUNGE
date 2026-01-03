@@ -1,3 +1,4 @@
+#attempting to merge two datasets so we could look at death rates with weather? unfinished
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
