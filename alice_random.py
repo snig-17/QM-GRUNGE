@@ -1,3 +1,4 @@
+# slightly random visualisations and then the first_routes bit is cleaning the route(s) column , then printing 15 most frequent
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
