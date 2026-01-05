@@ -68,3 +68,41 @@ def request_expedition_data(expedition_code: str) -> Dict[str, Any]:
         "death_mbrs": death_mbrs,
         "hired_deaths": hired_deaths
     }
+
+df_exped = pd.read_csv('/Users/alicecaiger/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Core BASc-alice’s MacBook Air/QM2/Everest/expeditions.csv')
+df_exped['Year'] = df_exped['Yr/Seas'].astype(str).str.extract(r'(\d{4})').astype(int)
+df_exped.to_csv('expeditions2.csv', index=False)
+
+df_exped2 = pd.read_csv('/Users/alicecaiger/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Core BASc-alice’s MacBook Air/QM2/Everest/expeditions2.csv')
+df_exped2["expedition_code"] = (
+    df_exped2["Exped ID"].str.replace("-", "", regex=False)
+    + df_exped2["Year"].astype(str)
+)
+print(df_exped2[["Exped ID", "Year", "expedition_code"]].head())
+
+new_cols = ["member_count", "total_members", "death_mbrs", "hired_deaths"]
+
+for col in new_cols:
+    if col not in df_exped2.columns:
+        df_exped2[col] = pd.NA
+
+import time
+total = len(df_exped2)
+for i, exp_id in enumerate(df_exped2["expedition_code"]):
+    print(f"Processing {i + 1}/{total}: {exp_id}")
+    try:
+        data = request_expedition_data(exp_id)
+
+        df_exped2.loc[i, "member_count"] = data["member_count"]
+        df_exped2.loc[i, "total_members"] = data["total_members"]
+        df_exped2.loc[i, "death_mbrs"] = data["death_mbrs"]
+        df_exped2.loc[i, "hired_deaths"] = data["hired_deaths"]
+
+        time.sleep(0.5)
+
+    except Exception as e:
+        print(f"Failed for {exp_id}: {e}")
+
+output_path = "/Users/alicecaiger/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Core BASc-alice’s MacBook Air/QM2/Everest/expeditions3.csv"
+df_exped2.to_csv(output_path, index=False)
+print(df_exped2.columns.tolist())
