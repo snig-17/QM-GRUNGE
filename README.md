@@ -1,19 +1,19 @@
 # QM-GRUNGE
 
 ```text
-                 /\ 
-                /  \        /\ 
-           /\  / /\ \      /  \ 
-          /  \/ /  \ \    / /\ \ 
-         / /\  / /\ \ \  / /  \ \ 
-        /_/  \/_/  \_\_\/_/    \_\_
+                                                 /\ 
+                                                /  \        /\ 
+                                           /\  / /\ \      /  \ 
+                                          /  \/ /  \ \    / /\ \ 
+                                         / /\  / /\ \ \  / /  \ \ 
+                                        /_/  \/_/  \_\_\/_/    \_\_
 
-           Quantitative Modelling — Notebooks, Data, Experiments
+        BASC0005: Quantitative Methods & Mathematical Thinking — Notebooks, Data, Experiments
 ```
 
 ## Overview
 
-**QM-GRUNGE** is the working repository for our group project in **BASc0005: Quantitative Methods 2 – Data Science and Visualisation** at UCL.  
+**QM-GRUNGE** is the working repository for our group project in **BASC0005: Quantitative Methods 2 – Data Science and Visualisation** at UCL.  
 
 This repository contains all datasets, analysis notebooks, figures, and intermediate outputs used to build our final **group website**, which analyses and visualises a real-world dataset in its wider social, political, or cultural context.
 
@@ -186,55 +186,55 @@ No license file is currently included. Add a LICENSE file (e.g. MIT, Apache-2.0,
 
 <table>
   <tr>
-    <td>Alice Caiger</td>
+    <td><strong>Alice Caiger</strong></td>
     <td>
       <a href="https://github.com/alicecaiger">
-        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="18" style="vertical-align: middle;">
+        <img src="https://github.com/alicecaiger.png" width="32" style="border-radius:50%; vertical-align:middle;">
         <strong> alicecaiger</strong>
       </a>
     </td>
   </tr>
   <tr>
-    <td>Becky Redmayne</td>
+    <td><strong>Becky Redmayne</strong></td>
     <td>
       <a href="https://github.com/rebeccarlredmayne-cmd">
-        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="18" style="vertical-align: middle;">
+        <img src="https://github.com/rebeccarlredmayne-cmd.png" width="32" style="border-radius:50%; vertical-align:middle;">
         <strong> rebeccarlredmayne-cmd</strong>
       </a>
     </td>
   </tr>
   <tr>
-    <td>Claire Tu</td>
+    <td><strong>Claire Tu</strong></td>
     <td>
       <a href="https://github.com/claire-tu314">
-        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="18" style="vertical-align: middle;">
+        <img src="https://github.com/claire-tu314.png" width="32" style="border-radius:50%; vertical-align:middle;">
         <strong> claire-tu314</strong>
       </a>
     </td>
   </tr>
   <tr>
-    <td>Shayna Gail Velasquez</td>
+    <td><strong>Shayna Gail Velasquez</strong></td>
     <td>
       <a href="https://github.com/shynnnexe">
-        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="18" style="vertical-align: middle;">
+        <img src="https://github.com/shynnnexe.png" width="32" style="border-radius:50%; vertical-align:middle;">
         <strong> shynnnexe</strong>
       </a>
     </td>
   </tr>
   <tr>
-    <td>Snigdha Tiwari</td>
+    <td><strong>Snigdha Tiwari</strong></td>
     <td>
       <a href="https://github.com/snig-17">
-        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="18" style="vertical-align: middle;">
+        <img src="https://github.com/snig-17.png" width="32" style="border-radius:50%; vertical-align:middle;">
         <strong> snig-17</strong>
       </a>
     </td>
   </tr>
   <tr>
-    <td>Rania Harryanto</td>
+    <td><strong>Rania Harryanto</strong></td>
     <td>
       <a href="https://github.com/rarelyrania">
-        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="18" style="vertical-align: middle;">
+        <img src="https://github.com/rarelyrania.png" width="32" style="border-radius:50%; vertical-align:middle;">
         <strong> rarelyrania</strong>
       </a>
     </td>
