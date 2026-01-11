@@ -184,12 +184,62 @@ No license file is currently included. Add a LICENSE file (e.g. MIT, Apache-2.0,
 
 ## Authors
 
-- Alice Caiger - https://github.com/alicecaiger
-- Becky Redmayne  
-- Claire Tu - https://github.com/claire-tu314
-- Shayna Gail Velasquez - https://github.com/shynnnexe
-- Snigdha Tiwari - https://github.com/snig-17
-- Rania Harryanto - 
+<table>
+  <tr>
+    <td>Alice Caiger</td>
+    <td>
+      <a href="https://github.com/alicecaiger">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="18" style="vertical-align: middle;">
+        <strong> alicecaiger</strong>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>Becky Redmayne</td>
+    <td>
+      <a href="https://github.com/rebeccarlredmayne-cmd">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="18" style="vertical-align: middle;">
+        <strong> rebeccarlredmayne-cmd</strong>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>Claire Tu</td>
+    <td>
+      <a href="https://github.com/claire-tu314">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="18" style="vertical-align: middle;">
+        <strong> claire-tu314</strong>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>Shayna Gail Velasquez</td>
+    <td>
+      <a href="https://github.com/shynnnexe">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="18" style="vertical-align: middle;">
+        <strong> shynnnexe</strong>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>Snigdha Tiwari</td>
+    <td>
+      <a href="https://github.com/snig-17">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="18" style="vertical-align: middle;">
+        <strong> snig-17</strong>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>Rania Harryanto</td>
+    <td>
+      <a href="https://github.com/rarelyrania">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="18" style="vertical-align: middle;">
+        <strong> rarelyrania</strong>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
