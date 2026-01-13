@@ -27,7 +27,7 @@ The project follows the structure of a data-driven research workflow taught in t
 The notebooks in this repository are used to develop, test, and document the analysis that is ultimately presented on the website, including the methods, visualisations, and conclusions required for the final assessment.
 
 ---
-## Overview
+## Project Submission
 
 Our Website! - https://grungemetrics.figma.site
 
